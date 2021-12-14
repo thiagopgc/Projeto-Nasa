@@ -40,12 +40,12 @@ header h1 {
   color: aliceblue;
 }
 
-div .informacao {
+main .informacao {
   color: blue;
   width: 50%;
   text-align: center;
 }
-div .imagem {
+main .imagem {
   width: 50%;
   height: 50%;
 }

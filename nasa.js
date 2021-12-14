@@ -22,6 +22,7 @@ $(".botao").click(function () {
     success: function (result) {
       $(".informacao").text(result.explanation);
       $(".imagem").attr("src", result.url);
+      $(".titulo").text(result.title);
     },
   });
 });
