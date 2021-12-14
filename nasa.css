@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(black, #3f51b5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.principal {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://image.freepik.com/fotos-gratis/as-belas-estrelas-brilhando-no-ceu-noturno_181624-622.jpg);
+  background-size: contain;
+  background-repeat: round;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.principal h3 {
+  color: aliceblue;
+}
+
+div .informacao {
+  color: blue;
+  width: 50%;
+  text-align: center;
+}
+div .imagem {
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(13deg, black, #3f51b5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-pe {
+  width: 132px;
+  height: 30px;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.logo-pe img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rede-social img {
+  border-radius: px;
+}
+footer p {
+  font-weight: bold;
+}
