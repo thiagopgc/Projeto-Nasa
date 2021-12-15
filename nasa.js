@@ -24,6 +24,7 @@ $(".botao").click(function () {
       $(".imagem").attr("src", result.url);
       $(".imagem").css("display", "block");
       $(".titulo").text(result.title);
+      $(".titulo").css("color", "aliceblue");
     },
   });
 });

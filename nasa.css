@@ -49,6 +49,8 @@ main .imagem {
   width: 50%;
   height: 50%;
   display: none;
+  border: solid 5px tomato;
+  border-style: dashed;
 }
 
 footer {
